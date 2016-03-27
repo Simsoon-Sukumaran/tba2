@@ -1,0 +1,178 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<meta name="viewport" content=" initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+		
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery.mobile-1.4.5.js"></script>
+		<script src="js/jquery-1.12.1.min.js"></script>
+		
+        <title>Tamil bible audio</title>
+    </head>
+    <body>
+	
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<script src="js/jquery.mobile-1.4.5.js"></script>
+		<script src="js/jquery-1.12.1.min.js"></script>
+			
+			<!-- Start of first page: #one -->
+<div data-role="page" id="home">
+
+	<div data-role="header" data-theme='b'>
+		<h1>Tamil Bible Audio</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<!--
+		<p><a href="#matthew" class="ui-btn ui-shadow ui-corner-all">Show page "two"</a></p>
+		<p><a href="#popup" class="ui-btn ui-shadow ui-corner-all" data-rel="dialog" data-transition="pop">Show page "popup" (as a dialog)</a></p>
+		-->
+		
+	<ul data-role="listview" data-inset="true" data-shadow="false">
+		<li data-role="collapsible" data-iconpos="right" data-inset="false">
+			<h2>Old Testaments</h2>
+		<form class="ui-filterable">
+				<input id="filterBasic-input" data-type="search">
+		</form>
+			<ul data-role="listview" data-theme="b"  data-filter="true" data-input="#filterBasic-input">
+				<li><a href="#">Genesis</a></li>
+				<li><a href="#">Exodus</a></li>
+				<li><a href="#">Leviticus</a></li>
+				<li><a href="#">Numbers</a></li>
+				<li><a href="#">Deuteronomy</a></li>
+				<li><a href="#">Joshua</a></li>
+				<li><a href="#">Judges</a></li>
+				<li><a href="#">Ruth</a></li>
+				<li><a href="#">1 Samuel</a></li>
+				<li><a href="#">2 Samuel</a></li>
+				<li><a href="#">1 Kings</a></li>
+				<li><a href="#">2 Kings</a></li>
+				<li><a href="#">1 Chronicles</a></li>
+				<li><a href="#">2 Chronicles</a></li>
+				<li><a href="#">Ezra</a></li>
+				<li><a href="#">Nehemiah</a></li>
+				<li><a href="#">Esther</a></li>
+				<li><a href="#">Job</a></li>
+				<li><a href="#">Psalms</a></li>
+				<li><a href="#">Proverbs</a></li>
+				<li><a href="#">Ecclesiastes</a></li>
+				<li><a href="#">Song of Solomon</a></li>
+				<li><a href="#">Isaiah</a></li>
+				<li><a href="#">Jeremiah</a></li>
+				<li><a href="#">Lamentations</a></li>
+				<li><a href="#">Ezekiel</a></li>
+				<li><a href="#">Daniel</a></li>
+				<li><a href="#">Hosea</a></li>
+				<li><a href="#">Joel</a></li>
+				<li><a href="#">Amos</a></li>
+				<li><a href="#">Obadiah</a></li>
+				<li><a href="#">Jonah</a></li>
+				<li><a href="#">Micah</a></li>
+				<li><a href="#">Nahum</a></li>
+				<li><a href="#">Habakkuk</a></li>
+				<li><a href="#">Zephaniah</a></li>
+				<li><a href="#">Haggai</a></li>
+				<li><a href="#">Zechariah</a></li>
+				<li><a href="#">Malachi</a></li>
+			</ul>
+		</li>
+		<li data-role="collapsible" data-iconpos="right" data-inset="false">
+			<h2>New Testaments</h2>
+			<form class="ui-filterable">
+				<input id="filterBasic-input" data-type="search">
+			</form>
+			<ul data-role="listview" data-theme="b" data-filter="true" data-input="#filterBasic-input">
+				<li><a href="#matthew" class="ui-btn ui-shadow ui-corner-all">Matthew</a></li>
+				<li><a href="#">Mark</a></li>
+				<li><a href="#">Luke</a></li>
+				<li><a href="#">John</a></li>
+				<li><a href="#">Acts</a></li>
+				<li><a href="#">Romans</a></li>
+				<li><a href="#">1 Corinthians</a></li>
+				<li><a href="#">2 Corinthians</a></li>
+				<li><a href="#">Galatians</a></li>
+				<li><a href="#">Ephesians</a></li>
+				<li><a href="#">Philippians</a></li>
+				<li><a href="#">Colossians</a></li>
+				<li><a href="#">1 Thessalonians</a></li>
+				<li><a href="#">2 Thessalonians</a></li>
+				<li><a href="#">1 Timothy</a></li>
+				<li><a href="#">2 Timothy</a></li>
+				<li><a href="#">Titus</a></li>
+				<li><a href="#">Philemon</a></li>
+				<li><a href="#">Hebrews</a></li>
+				<li><a href="#">James</a></li>
+				<li><a href="#">1 Peter</a></li>
+				<li><a href="#">2 Peter</a></li>
+				<li><a href="#">1 John</a></li>
+				<li><a href="#">2 John</a></li>
+				<li><a href="#">3 John</a></li>
+				<li><a href="#">Jude</a></li>
+				<li><a href="#">Revelation</a></li>
+			</ul>
+		</li>
+</ul>
+	
+	
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="b" data-position="fixed">
+		<h4>SJsim Production</h4>
+	</div><!-- /footer -->
+</div><!-- /page one -->
+
+<!-- Start of second page: #two -->
+<div data-role="page" id="matthew" data-theme="a">
+
+	<div data-role="header">
+		<h1>Matthew</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		
+	<a href="#home" data-role="button" data-icon="arrow-l" text-align='left' style="margin-right: 300px;">Home</a>
+	
+		<ul data-role="listview" data-inset="true" data-shadow="false">	
+		<li data-role='listview' data-iconpos="right" data-inset="false">
+			<h2 align='center'>Matthew List</h2>
+	
+		<form class="ui-filterable">
+				<input id="filterBasic-input" data-type="search">
+		</form>
+			<ul data-role="listview" data-theme="b"  data-filter="true" data-input="#filterBasic-input" style="margin-left: 20px;margin-right: 20px;">
+				<li><a href="mobile_TBA/media_files/matthew/Matthew_01.mp3">Matthew Chapter 1</a></li>
+				<li><a href="#">Matthew Chapter 2</a></li>
+				<li><a href="#">Matthew Chapter 3</a></li>
+				<li><a href="#">Matthew Chapter 4</a></li>
+				<li><a href="#">Matthew Chapter 5</a></li>
+				<li><a href="#">Matthew Chapter 6</a></li>
+			</ul>
+		</li>
+		</ul>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+		<h4>SJsim Production</h4>
+	</div><!-- /footer -->
+</div><!-- /page two -->
+
+<!-- Start of third page: #popup -->
+<div data-role="page" id="popup">
+
+	<div data-role="header" data-theme="b">
+		<h1>Dialog</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<h2>Popup</h2>
+		<p>I have an id of "popup" on my page container and only look like a dialog because the link to me had a <code>data-rel="dialog"</code> attribute which gives me this inset look and a <code>data-transition="pop"</code> attribute to change the transition to pop. Without this, I'd be styled as a normal page.</p>
+		<p><a href="#one" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left">Back to page "one"</a></p>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page popup -->
+		
+    </body>
+</html>
