@@ -6,10 +6,12 @@
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
 		<script src="js/jquery.mobile-1.4.5.js"></script>
 		<script src="js/jquery-1.12.1.min.js"></script>
-		<script src="js/index.js"></script>
+		
 		
 			<script type='text/javascript'>
 			
+			document.addEventListener('deviceready', this.onDeviceReady, false);
+				
 			function start()
 			{
 					//alert("success");
@@ -212,6 +214,7 @@
 			</tr>	
 		</table>
 				<p><a href="#home" data-rel="back" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left" onclick='pause()'>Back to page "one"</a></p>
+				<p><a href="lala.html" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-icon-back ui-btn-icon-left" onclick='pause()'>goto lala</a></p>
 	</div><!-- /content -->
 
 	<div data-role="footer">
@@ -223,8 +226,9 @@
 		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
 		<script src="js/jquery.mobile-1.4.5.js"></script>
 		<script src="js/jquery-1.12.1.min.js"></script>
-		<script src="js/index.js"></script>
-			
+		<!--<script src="js/cordova.js"></script>
+		<script src="js/Media.js"></script>
+			-->
 			
     </body>
 </html>
